@@ -1,0 +1,41 @@
+* {
+	font-family: Arial;
+}
+nav {
+	width: 90%;
+	margin: 0px auto;
+}
+nav > a {
+	padding: 0px auto;
+}
+h1 {
+	float: left;
+	height: 50px;
+	width: 15%;
+	margin: 0px 1% 3px 5%;
+	font-family: Calibri;
+	font-size: 32px;
+}
+h2 {
+	font-size: 26px;
+}
+p {
+	font-size: 20px;
+}
+.description {
+	float: left;
+	height:50px;
+	width: 74%;
+	margin: 0px 5% 3px 0px;
+}
+.content {
+	float:left;
+	margin: 0px 5% 0px 21%;
+}
+.navbar {
+	width: 15px;
+	height: 15px;
+}
+.footnote {
+	text-align: center;
+}

@@ -1,0 +1,80 @@
+* {
+	font-family: Arial;
+}
+nav {
+	width: 90%;
+	margin: 0px auto;
+}
+nav > a {
+	padding: 0px auto;
+}
+h1 {
+	float: left;
+	height: 50px;
+	width: 15%;
+	margin: 0px 1% 3px 5%;
+	font-family: Calibri;
+	font-size: 26px;
+}
+h2 {
+	font-size: 22px;
+}
+p, a, li {
+	font-size: 14px;
+}
+h3, a.h3 {
+	font-size:18px;
+}
+a:link, a:visited {
+	color:#0b17bd;
+}
+a:hover {
+	color: #9d18b8;
+}
+a:active {
+	color: #d60f80;
+}
+a.h3:link, a.h3:visited, li > a:link, li > a:visited {
+	color:black;
+}
+a.h3:hover, li > a:hover {
+	color: gray;
+}
+a.h3:active, li > a:active {
+	color: blue;
+}
+a#logo:link, a#logo:visited {
+	color: #ebc700;
+	height: 40px;
+	font-size: 20px;
+}
+a#logo:hover {
+	animation-name: logo_an;
+	animation-duration: 1s;
+	color: #a8a699;
+}
+a#logo:active {
+	color: silver;
+}
+@keyframes logo_an {
+	0%		{color: #a8a699;}
+	50%		{transform: scale(0.75);}
+	100%	{transform: scale(2);}
+}
+.description {
+	float: left;
+	height:50px;
+	width: 74%;
+	margin: 0px 5% 3px 0px;
+}
+.content {
+	float:left;
+	margin: 0px 5% 0px 21%;
+}
+.navbar {
+	width: 15px;
+	height: 15px;
+}
+footer{
+	text-align: center;
+}
